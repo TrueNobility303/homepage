@@ -2,7 +2,7 @@
 
 ## About me
 
-I am Lesi Chen, an undergraduate in School of Data Science, interested in Artificial Intelligence.
+I am Lesi Chen, an undergraduate in School of Data Science, Fudan University，interested in Artificial Intelligence.
 
 ## Projects
 
@@ -35,3 +35,6 @@ I am Lesi Chen, an undergraduate in School of Data Science, interested in Artifi
 * MaskRCNN in Fudan <[Link](https://github.com/TrueNobility303/maskrcnn-PennFudan)>
 * 3D Computer Vision with PointNets <[Link](https://github.com/TrueNobility303/modelnet-pointnet)>
 * A Self Implement of Region Proposal Networks <[Link](https://github.com/TrueNobility303/region-proposal-network)>
+
+### Projects as Collaborator
+* Business Analysis of Airbnb <[Link](https://github.com/Name-less-King/Meituan_Business_Analysis_Competition)>
