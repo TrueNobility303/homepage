@@ -25,5 +25,5 @@ I am Lesi Chen, a student in School of Data Science.
 * Nerual Doodle with VGG <[Link](https://github.com/TrueNobility303/gatys-style-tranfer)>
 * GAN it! Amine Faces <[Link](https://github.com/TrueNobility303/GAN-face-generator)>
 * MaskRCNN in Fudan <[Link](https://github.com/TrueNobility303/maskrcnn-PennFudan)>
-* 3D Coputer Vision with PoinNets <[Link](https://github.com/TrueNobility303/modelnet-pointnet)>
+* 3D Coputer Vision with PointNets <[Link](https://github.com/TrueNobility303/modelnet-pointnet)>
 * A Self Implement of Region Proposal Networks <[Link](https://github.com/TrueNobility303/region-proposal-network)>
