@@ -21,7 +21,7 @@ I am Lesi Chen, a student in School of Data Science.
 
 * Playing Games with Rainbow <[Link](https://github.com/TrueNobility303/rainbow-cartpole)>
 * Comparison of Represenative Semanic Segmentation Networks <[Link](https://github.com/TrueNobility303/pytorch-segentation)>
-* Stuff and Nonsence from a LSTM poet <[Link](https://github.com/TrueNobility303/lstm-poem)>
+* Stuff and Nonsence from a LSTM Poet <[Link](https://github.com/TrueNobility303/lstm-poem)>
 * Nerual Doodle with VGG <[Link](https://github.com/TrueNobility303/gatys-style-tranfer)>
 * GAN it! Amine Faces <[Link](https://github.com/TrueNobility303/GAN-face-generator)>
 * MaskRCNN in Fudan <[Link](https://github.com/TrueNobility303/maskrcnn-PennFudan)>
