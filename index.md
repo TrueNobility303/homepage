@@ -2,7 +2,7 @@
 
 ## About me
 
-I am Lesi Chen, a student in School of Data Science.
+I am Lesi Chen, an undergraduate in School of Data Science, interested in Artificial Intelligence.
 
 ## Projects
 
