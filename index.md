@@ -19,7 +19,8 @@ I am Lesi Chen, a student in School of Data Science.
 
 ### Learning and Having Fun
 
-* Deep Reinforce Learning with Rainbow <[Link](https://github.com/TrueNobility303/rainbow-cartpole)>
+* Playing Games with Rainbow <[Link](https://github.com/TrueNobility303/rainbow-cartpole)>
 * Comparison of Represenative Semanic Segmentation Networks <[Link](https://github.com/TrueNobility303/pytorch-segentation)>
 * Stuff and Nonsence from a LSTM poet <[Link](https://github.com/TrueNobility303/lstm-poem)>
-* A 
+* Doodle with VGG <[Link](https://github.com/TrueNobility303/gatys-style-tranfer)>
+* 
