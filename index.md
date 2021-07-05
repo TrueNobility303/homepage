@@ -15,7 +15,7 @@ I am Lesi Chen, a student in School of Data Science.
 * Nerual Network and Deep Learning - PJ2(Bonus) - Pruning and Winning Tickets Finding with DessiLBI <[Link](https://github.com/TrueNobility303/DessiLBI)>
 * Nerual Network and Deep Learning - PJ3 - Multi-language Scene Text Recognition with mmocr <[Link](https://github.com/TrueNobility303/scene-text-recognition), [Report](https://github.com/TrueNobility303/scene-text-recognition/blob/master/NNDL%20Project3.pdf)>
 * Nerual Network and Deep Learning-Final(Part1) - Arbitririly Synthesizing Raphael's Paitinigs with Convulution Neural Networks <[Link](https://github.com/TrueNobility303/Raphael-style-transfer-CNN), [Report](https://github.com/TrueNobility303/Raphael-style-transfer-CNN/blob/master/Report.pdf)>
-* Nerual Network and Deep Learning-Final(Part2) - Enhancing CycleGAN for Few Shot Style Transfer <[Link](https://github.com/TrueNobility303/Raphael-style-transfer-CycleGAN), Report(https://github.com/TrueNobility303/Raphael-style-transfer-CycleGAN/blob/master/Report.pdf)>
+* Nerual Network and Deep Learning-Final(Part2) - Enhancing CycleGAN for Few Shot Style Transfer <[Link](https://github.com/TrueNobility303/Raphael-style-transfer-CycleGAN), [Report](https://github.com/TrueNobility303/Raphael-style-transfer-CycleGAN/blob/master/Report.pdf)>
 
 ### Learning and Having Fun
 
