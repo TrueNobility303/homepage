@@ -6,7 +6,7 @@ I am Lesi Chen, an undergraduate in School of Data Science, interested in Artifi
 
 ## Projects
 
-### Cource Projects
+### Course Projects
 
 * Computer Vision - Final - Improving Convolution Transformer(CvT) with Bilateral Paths <[Link](https://github.com/TrueNobility303/bilateral-covolution-vision-transformer), [Report](https://github.com/TrueNobility303/bilateral-covolution-vision-transformer/blob/master/Report.pdf)>
 * Social Network Mining - Final - An in-depth Study of Machine Learning on Networks <[Link](https://github.com/TrueNobility303/network-machine-learning), [Report](https://github.com/TrueNobility303/network-machine-learning/blob/master/article.pdf)>
