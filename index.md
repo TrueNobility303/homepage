@@ -38,3 +38,7 @@ I am Lesi Chen, an undergraduate in School of Data Science, Fudan University，i
 
 ### Projects as Collaborator
 * Business Analysis of Airbnb <[Link](https://github.com/Name-less-King/Meituan_Business_Analysis_Competition)>
+
+## Contact
+
+19307130195@fudan.edu.cn
