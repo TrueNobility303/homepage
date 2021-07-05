@@ -16,3 +16,10 @@ I am Lesi Chen, a student in School of Data Science.
 * Nerual Network and Deep Learning-PJ3-Multi-language Scene Text Recognition with mmocr <[Link](https://github.com/TrueNobility303/scene-text-recognition)>
 * Nerual Network and Deep Learning-Final(Part1)-Arbitririly Synthesizing Raphael's Paitinigs with Convulution Neural Networks <[Link](https://github.com/TrueNobility303/Raphael-style-transfer-CNN)>
 * Nerual Network and Deep Learning-Final(Part2)-Enhancing CycleGAN for Few Shot Style Transfer <[Link](https://github.com/TrueNobility303/Raphael-style-transfer-CycleGAN)>
+
+### Learning and Having Fun
+
+* Deep Reinforce Learning with Rainbow <[Link](https://github.com/TrueNobility303/rainbow-cartpole)>
+* Comparison of Represenative Semanic Segmentation Networks <[Link](https://github.com/TrueNobility303/pytorch-segentation)>
+* Stuff and Nonsence from a LSTM poet <[Link](https://github.com/TrueNobility303/lstm-poem)>
+* A 
