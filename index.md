@@ -37,8 +37,8 @@ I am Lesi Chen, an undergraduate in School of Data Science, Fudan University，i
 * A Self Implement of Region Proposal Networks <[Link](https://github.com/TrueNobility303/region-proposal-network)>
 
 ### Projects as Collaborator
-* Business Analysis of Airbnb <[Link](https://github.com/Name-less-King/Meituan_Business_Analysis_Competition)>
-
+* Business Analysis of Airbnb <[Link](https://github.com/Name-less-King/Meituan_Business_Analysis_Competition)>  
+* NBA Data Management System <[Link](https://github.com/Name-less-King/DATA130039.01-NBA-DBMS)>
 ## Contact me
 
 19307130195@fudan.edu.cn
