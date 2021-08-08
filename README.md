@@ -1,3 +1,5 @@
 # TrueNobility303.github.io
 
-WELCOME, FRIENDS！
+Welcome, friends！
+
+Have fun in my website at https://truenobility303.github.io/
