@@ -2,4 +2,4 @@
 
 Welcome, friends！
 
-Have fun in my website at https://truenobility303.github.io/
+Have fun at my website https://truenobility303.github.io/
