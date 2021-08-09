@@ -3,7 +3,7 @@
 ## About me
 
 I am Lesi Chen, an undergraduate in School of Data Science, Fudan University，interested in Artificial Intelligence.
-![](http://latex.codecogs.com/gif.latex?E=mc^2)
+![photo](http://latex.codecogs.com/gif.latex?{E=mc^2})
 ## Projects
 
 ### Course Projects
