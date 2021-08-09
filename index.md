@@ -2,7 +2,7 @@
 
 ## About me
 
-I am Lesi Chen, an undergraduate in School of Data Science, Fudan University，interested in Artificial Intelligence. $E=mc^2$ E=mc^2
+I am Lesi Chen, an undergraduate in School of Data Science, Fudan University，interested in Artificial Intelligence. $ E=mc^2 $ E=mc^2
 
 ## Projects
 
