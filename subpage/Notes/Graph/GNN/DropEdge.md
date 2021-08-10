@@ -108,7 +108,7 @@ $$
 定义子空间$X$相对子空间$M$之间的距离
 
 $$
-d_M(X) := inf\{\VertX-Y\Vert_F \ : \ Y \in M\} \\
+d_M(X) := inf\{\Vert X-Y \Vert_F \ : \ Y \in M\} \\
 M = :U \otimes R^C = \{\sum_m^M e_m \otimes w_m : w_m \in R^C\}
 $$
 
