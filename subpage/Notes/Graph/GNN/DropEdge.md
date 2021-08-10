@@ -146,6 +146,7 @@ $$
 
 
 由于$X \in R^N \times R^C$, $X$可以表示为
+
 $$
 X = \sum_m^N e_m  \otimes w_m, \exists w_m
 $$
@@ -214,7 +215,7 @@ $$
 用分析的语言表达为，
 
 $$
-\exists l^{\*}, \forall l \ge l^{\*},d_M(f^{(l)}(X)) \le \epsilon
+\exists l^', \forall l \ge l^',d_M(f^{(l)}(X)) \le \epsilon
 $$
 
 
