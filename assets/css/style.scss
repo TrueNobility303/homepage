@@ -19,12 +19,14 @@
 .scroll-nav__item--active > a {
   //padding: 5px;
   font-weight: bold;
-  //position: relative;
+  position: relative;
   
+  /*
   //设置绝对位置
   position:fixed;
   right:0;
   bottom:0;
+  */
   
   color: #000000;
   //background: $red;
