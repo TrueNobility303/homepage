@@ -91,7 +91,6 @@ Lx = 0 \Rightarrow L P x =0
 $$
 
 
-
 同时，由于$L$为对称阵，$P$也为对称阵，则$U$的正交补空间$U^C$ 也为$P$的不变子空间，
 
 
@@ -109,7 +108,7 @@ $$
 
 $$
 d_M(X) := inf\{\Vert X-Y \Vert_F  :  Y \in M\} \\
-M = :U \otimes R^C = \{\sum_m^M e_m \otimes w_m : w_m \in R^C\}
+M = :U \otimes R^C = \{ \sum_m^M e_m \otimes w_m : w_m \in R^C \}
 $$
 
 
@@ -214,19 +213,24 @@ $$
  有了以上的结论，可以定义$\epsilon-soomth$的定义，其实就是说，GCN堆叠到了一定的层数之后，$d_M(f^{(l)}(X)) \to 0$
 
 用分析的语言表达为，
+
 $$
 \exist l^\*, \forall l \ge l^\*,d_M(f^{(l)}(X)) \le \epsilon
 $$
 
 
 若要求
+
 $$
 d_M(f^{(l)}(X)) \le (s\lambda)^l d_M(X) \le \epsilon 
 $$
+
 则只需要，
+
 $$
 l \ge \frac{\log\frac{\epsilon}{d_M(X)}}{\log s\lambda}
 $$
+
 也即当GCN的层数达到一定数目后，就会陷入过平滑化的危险之中。
 
 
