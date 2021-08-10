@@ -65,3 +65,4 @@ $$
 w_{t+1} = w_t - \alpha(\nabla L(w_t + \epsilon_t) + \lambda w)
 $$
 
+SAM,yyds!
