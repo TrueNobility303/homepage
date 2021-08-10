@@ -1,8 +1,8 @@
 ---
 ---
 
-// @import "{{ site.theme }}";
-@import "jekyll-theme-slate";
+@import "{{ site.theme }}";
+//@import "jekyll-theme-slate";
 .scroll-nav__list, .scroll-nav__sub-list {
   margin: 0;
   padding-left: 1.4em;
