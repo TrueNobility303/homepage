@@ -1,4 +1,4 @@
-# KFAC
+# KFAC:基于Kronecker-分解的二阶优化算法
 
  论文阅读笔记：[Optimizing Neural Networks with Kronecker-factored Approximate Curvature](https://arxiv.org/pdf/1503.05671v7.pdf)
 
