@@ -1,4 +1,4 @@
-# SAM
+# 优化器界无敌的山姆大叔：SAM
 
 论文阅读笔记：[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://paperswithcode.com/paper/sharpness-aware-minimization-for-efficiently-1)
 
