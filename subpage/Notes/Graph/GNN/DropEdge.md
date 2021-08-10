@@ -147,7 +147,7 @@ $$
 
 由于$X \in R^N \times R^C$, $X$可以表示为
 $$
-X = \sum_m^N e_m  \otimes w_m, \exist w_m
+X = \sum_m^N e_m  \otimes w_m, \exists w_m
 $$
 
 
@@ -301,7 +301,7 @@ $$
 
 
 $$
-M \to Q, t\to \infin
+M \to Q, t\to \infinty
 $$
 
 
@@ -594,7 +594,7 @@ $$
 而且，在极限情况下，不断执行DropEdge操作将会得到完全的断路，也即，
 
 $$
-\exist s,t, R_{st} = \infin
+\exists s,t, R_{st} = \infinty
 $$
 
 此时有$\lambda \ge 1$ 但我们又已知$\lambda \le 1$ ,故极限情况下一定会达到$\lambda=1$ , 故在未达到$\lambda=1$ 之间$\lambda$ 的确会增加而不可能一直保持不变状态。
