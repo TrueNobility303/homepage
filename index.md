@@ -1,6 +1,3 @@
----
-layout: post
----
 
 # Hello, world！
 
