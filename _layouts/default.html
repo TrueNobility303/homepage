@@ -12,7 +12,6 @@
   </head>
 
   <body>
-    {% include body.html %}
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
@@ -38,7 +37,9 @@
         {{ content }}
       </section>
     </div>
-
+    
+    {% include body.html %}
+    
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
