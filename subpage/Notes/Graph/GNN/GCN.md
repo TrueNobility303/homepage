@@ -2,7 +2,7 @@
 
 论文阅读笔记：[Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907v4)
 
-GCN（图卷积神经网络）是图神经网络中的杰出代表，文本主要推到其理论来源。
+GCN（图卷积神经网络）是图神经网络中的杰出代表，文本主要推导其理论基础。
 
 
 
