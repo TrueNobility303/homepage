@@ -52,7 +52,6 @@ $$
 
 上述卷积也等价于使用$Hadama$乘积对$X$对应的频率域信号$\tilde X$与卷积核进行逐点相乘得到同样在频率域的信号$\tilde Y$ ,用矩阵表示如下，
 
-
 $$
 \begin{align}
 g_{\theta}(\Lambda) X &=  \Theta \odot X \\
@@ -63,6 +62,7 @@ $$
 
 
 代入得，
+
 $$
 \begin{align}
 \tilde Y &= g_{\theta} (\Lambda) \tilde X \\
@@ -70,13 +70,16 @@ UY &= g_{\theta} (\Lambda) U X \\
 Y &= U^T g_{\theta} (\Lambda) U X \\
 \end{align}
 $$
+
 其中卷积核的参数$\theta$ 为可学习参数，而该多项式本身有应该和图的特征值$\Lambda$ 相关，才能得到图的频率特征等。比如，令$g_{\theta} (\Lambda) = \Lambda^{\frac{1}{2}}$ ,则 
+
 $$
 \begin{align}
 Y &= U^T\Lambda^{\frac{1}{2}} U X = L^{\frac{1}{2}} X \\
 E &=tr(Y^TY) = tr(X^T L X)
 \end{align}
 $$
+
 此时的$Y$可以认为储存了能量信息。
 
 
@@ -88,21 +91,26 @@ ChebConv是一种可学习的图卷积操作：
 
 
 用多项式表示卷积核，也即
+
 $$
 g_{\theta} (\Lambda) = \sum \theta_k \Lambda^k
 $$
+
 则结点分类任务可以转化为选取特定的$\theta$ ,使得图上的结点特征（原信号），经过上述图卷积运算后得到标签特征（目标信号），而$\theta$ 可以通过梯度下降算法迭代计算得到。同时，在实际中，可以使用多次图卷积操作堆叠得到最终的信号，而不一定只能进行一次图卷积。
 
 但计算该多项式的复杂度很高，如果使用切比雪夫多项式定义,
+
 $$
 \begin{align}
 &g_{\theta}(\Lambda) = \sum_k \theta_kT_k(\tilde \Lambda) \\
 &\tilde \Lambda = 2 \Lambda / \lambda_{max} - I 
 \end{align}
 $$
+
 其中$T_k$为k阶切比雪夫多项式，上述使用$\tilde \Lambda$ 定义的原因是使得满足切比雪夫多项式的定义域$[-1,1]$,
 
 由于$T_k$可以递归计算，
+
 $$
 \begin{align}
 T_0(x) &= 1 \\
@@ -110,6 +118,7 @@ T_1(x) &= x \\
 T_k(x) &= 2xT_{k-1}(x) - T_{k-2}(x) \\
 \end{align}
 $$
+
 所以用切比雪夫多项式定义的卷积核可以大大加速计算效率。
 
 由此，定义了ChebConv  ， 本质可以理解为一种可学习的图信号处理的手段。
@@ -125,47 +134,63 @@ $$
 利用ChebConv中的结论，我们来回顾一下，
 
 首先归一化拉普拉斯矩阵$L$ ,并不影响结果，
+
 $$
 L = I - D^{-\frac{1}{2} } A D^{-\frac{1}{2}}
 $$
+
 又由$Lx = \Lambda x$,
+
 $$
 \begin{align}
 &\tilde Y = g_{\theta} (\tilde \Lambda) U X  = g_{\theta} (\tilde L) X \\
 & \tilde L = 2L / \lambda_{max} - I
 \end{align}
 $$
+
 由于$L$的最大特征值不超过2，该结论可由随机矩阵的性质，或用反证法等推出，此处从略。
 
 假设$\lambda_{max} \approx 2$ ,代入得
+
 $$
 \tilde L = L - I = - D^{-\frac{1}{2} } A D^{-\frac{1}{2}}
 $$
+
 取$k=2$,
+
 $$
 g_{\theta} (\tilde L) X = \sum_k \theta_kT_k(\tilde L) = \theta_0 I - \theta_1 D^{-\frac{1}{2} } A D^{-\frac{1}{2}}
 $$
+
 假设$\theta_0 = -\theta_1 =\theta$ ,则
+
 $$
 g_{\theta} (\tilde L) X =  \theta (I + D^{-\frac{1}{2} } A D^{-\frac{1}{2}}) X
 $$
+
 为了计算方便，改动该公式，相当于对邻接矩阵先添加自环$I$后再用度数$D$进行归一化操作，
 
 改动的原因是，如果使用
+
 $$
 \tilde A :=I + D^{-\frac{1}{2} } A D^{-\frac{1}{2}}
 $$
+
 则该矩阵的特征值范围为$[0,2]$, 如果多次迭代进行会导致数值不稳定的情况发生，若改为，
+
 $$
 \tilde A := D^{-\frac{1}{2} } (A+I) D^{-\frac{1}{2}}
 $$
+
 则每次归一化保证矩阵的特征值属于$[0,1]$ ,避免了上述情况，
+
 $$
 g_{\theta} (\tilde L) X =   \tilde A  X \Theta  \\
 \tilde A := D^{-\frac{1}{2} } (A+I) D^{-\frac{1}{2}}
 $$
 
 使用两层GCN的话，为了增加神经网络拟合函数的非线性性，在每一层之间加入激活函数Relu，而最后一层采用Softmax函数使得输出为结点属于每一个类别的概率，得到最终的公式，
+
 $$
 Z = f(X,\Theta) = Softmax(\tilde A \ Relu(\tilde A XW_0) \ W_1) 
 $$
