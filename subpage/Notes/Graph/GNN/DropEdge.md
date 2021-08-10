@@ -109,8 +109,8 @@ $$
 
 
 $$
-d_M(X) := inf\{||X-Y||_F \ | \ Y \in M\} \\
-M := U \otimes R^C = \{\sum_m^M e_m \otimes w_m | w_m \in R^C\}
+d_M(X) := inf\{\VertX-Y\Vert_F \ : \ Y \in M\} \\
+M := U \otimes R^C = \{\sum_m^M e_m \otimes w_m : w_m \in R^C\}
 $$
 
 
@@ -160,14 +160,14 @@ $$
 由Krocker积的性质等可以推出，该结论也可以直观理解，
 
 $$
-d_M(X) = \sum_{m=M+1}^{N}||w_m||_2
+d_M(X) = \sum_{m=M+1}^{N} \Vert w_m\Vert_2
 $$
 
 
 推导如下，首先有,
 
 $$
-d_M(X) = ||\sum_{m=M+1}^N e_m \otimes w_m||_F
+d_M(X) = \Vert \sum_{m=M+1}^N e_m \otimes w_m\Vert_F
 $$
 
 对该式进行化简，
@@ -178,7 +178,7 @@ d_M(X)
 &= \sum_{m=M+1}^N (e_m \otimes w_m)^T (e_m\otimes w_m) \\
 &=  \sum_{m=M+1}^N (e_m^T e_m) \otimes(w_m^T w_m) \\
 &=  \sum_{m=M+1}^N (w_m\otimes w_m) \\
-&= \sum_{m=M+1}^{N}||w_m||_2
+&= \sum_{m=M+1}^{N} \Vert w_m \Vert_2
 \end{align}
 $$
 
@@ -191,8 +191,8 @@ d_M(PXW)
 &= \sum_{m=M+1}^N (Pe_m) \otimes (W^T w_m) \\
 &= \sum_{m=M+1}^N (\lambda_m e_m) \otimes  (W^T w_m) \\
 &=\sum_{m=M+1}^N e_m \otimes  ( \lambda_mW^T w_m) \\
-&= \sum_{m=M+1}^N ||\lambda_m W^Tw_m||_2 \\
-&\le \lambda s \sum_{m=M+1}^N ||w_m||_2 \\
+&= \sum_{m=M+1}^N \Vert \lambda_m W^Tw_m \Vert_2 \\
+&\le \lambda s \sum_{m=M+1}^N \Vert w_m \Vert_2 \\
 &\le d_M(X)
 \end{align}
 $$
@@ -208,7 +208,7 @@ $$
 
 下面需要证明激活函数也使得$d_M(X)$递减，
 
-个人觉得这个结论是直观的，因为$Relu$激活函数只保留了正部，所以$d_M(X)$不可能会增大，当然文中的证明非常严谨，此处从略，大致证明思路也是从$Relu$函数入手，具体证明的过程中用到了$e_m$正交性质以及$||.||_F$ 的排列不变性质，此处从略。
+个人觉得这个结论是直观的，因为$Relu$激活函数只保留了正部，所以$d_M(X)$不可能会增大，当然文中的证明非常严谨，此处从略，大致证明思路也是从$Relu$函数入手，具体证明的过程中用到了$e_m$正交性质以及$\Vert.|Vert_F$ 的排列不变性质，此处从略。
 
 
 
@@ -216,7 +216,7 @@ $$
 
 用分析的语言表达为，
 $$
-\exist l^*, \forall l \ge l^*,d_M(f^{(l)}(X)) \le \epsilon
+\exist l^\*, \forall l \ge l^\*,d_M(f^{(l)}(X)) \le \epsilon
 $$
 
 
