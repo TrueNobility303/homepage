@@ -215,7 +215,7 @@ $$
 用分析的语言表达为，
 
 $$
-\exists l^', \forall l \ge l^',d_M(f^{(l)}(X)) \le \epsilon
+\exists l^{\star}, \forall l \ge l^{\star},d_M(f^{(l)}(X)) \le \epsilon
 $$
 
 
