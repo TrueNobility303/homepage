@@ -215,7 +215,7 @@ $$
 用分析的语言表达为，
 
 $$
-\exist l^\*, \forall l \ge l^\*,d_M(f^{(l)}(X)) \le \epsilon
+\exists l^\*, \forall l \ge l^\*,d_M(f^{(l)}(X)) \le \epsilon
 $$
 
 
@@ -301,7 +301,7 @@ $$
 
 
 $$
-M \to Q, t\to \infinty
+M \to Q, t\to \infty
 $$
 
 
@@ -390,7 +390,7 @@ $$
 
 
 $$
-H = L^+ J - 2m L^+ +e u^T, \exist u
+H = L^+ J - 2m L^+ +e u^T, \exists u
 $$
 
 
@@ -594,7 +594,7 @@ $$
 而且，在极限情况下，不断执行DropEdge操作将会得到完全的断路，也即，
 
 $$
-\exists s,t, R_{st} = \infinty
+\exists s,t, R_{st} = \infty
 $$
 
 此时有$\lambda \ge 1$ 但我们又已知$\lambda \le 1$ ,故极限情况下一定会达到$\lambda=1$ , 故在未达到$\lambda=1$ 之间$\lambda$ 的确会增加而不可能一直保持不变状态。
