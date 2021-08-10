@@ -2,7 +2,7 @@
 
 论文阅读笔记：[How Powerful are Graph Neural Networks?](https://arxiv.org/abs/1810.00826v3)
 
-在[图卷积网络GCN](https://truenobility303.github.io/subpage/Notes/Graph/GNN/GCN)我们已经知道图神经网络在结点分类等任务上的作用，但GIN（图同构神经网络）给出了一个对于图嵌入（graph embedding）更强的公式。
+在 [图卷积网络GCN](https://truenobility303.github.io/subpage/Notes/Graph/GNN/GCN) 中我们已经知道图神经网络在结点分类等任务上的作用，但GIN（图同构神经网络）给出了一个对于图嵌入（graph embedding）更强的公式。
 
 GIN，图同构神经网络，致力于解决使用GNN对图进行分类的问题，我们知道采用GCN等GNN可以得到每个结点的嵌入向量表示（node embedding), 如果我们将一张图的所有节点的向量表示拼接起来，便可以得到整张图的向量表示（graph embedding)
 
@@ -54,9 +54,9 @@ $$
 
 
 
-#### 定理1.2：ego-graph的单射函数
+#### 定理1.2：Ego-Graph的单射函数
 
-那么这样子，我们就可以区分出每个结点的不同邻居结构了，但我们目的是区分每个结点的结点中心图$ego-graph$, 也就是我们还要考虑这个结点本身，那我们又需要一个单射函数，
+那么这样子，我们就可以区分出每个结点的不同邻居结构了，但我们目的是区分每个结点的结点中心图Ego-Graph, 也就是我们还要考虑这个结点本身，那我们又需要一个单射函数，
 
 
 $$
