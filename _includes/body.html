@@ -2,12 +2,21 @@
 <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
 
 <script>
-    const ct = document.querySelector('#main_content_wrap');  
-    scrollnav.init(ct, { 
-        debug: false,
-        easingStyle: 'linear',
-        
-        sections: 'h2',
-        subSections: 'h3'
-    });
+     var sUserAgent = navigator.userAgent.toLowerCase();
+     if (/ipad|iphone|midp|rv:1.2.3.4|ucweb|android|windows ce|windows mobile/.test(sUserAgent)) {
+         //跳转移动端页面
+         window.alert('Phone');
+         //window.location.href="http://f.jcngame.com/fanfan20171208/mobile/index.html";
+     } else {
+         //跳转pc端页面
+        window.alert('PC');
+        const ct = document.querySelector('#main_content_wrap');  
+        scrollnav.init(ct, { 
+            debug: false,
+            easingStyle: 'linear',
+
+            sections: 'h2',
+            subSections: 'h3'
+        });
+    }
 </script>
