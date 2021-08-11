@@ -38,8 +38,15 @@
       </section>
     </div>
     
-    {% include body.html %}
-    
+     var sUserAgent = navigator.userAgent.toLowerCase();
+     if (/ipad|iphone|midp|rv:1.2.3.4|ucweb|android|windows ce|windows mobile/.test(sUserAgent)) {
+         //跳转移动端页面
+         //window.location.href="http://f.jcngame.com/fanfan20171208/mobile/index.html";
+     } else {
+         //跳转pc端页面
+         {% include body.html %}
+     }
+   
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
