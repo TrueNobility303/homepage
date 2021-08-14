@@ -6,17 +6,19 @@
 
 求证： 下面的式子成立（其中＞号表示正定）
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image002.gif)
+![img](AdvanceAgreProblem.assets/clip_image002.gif)
 
 
 
 证明：利用特征值与矩阵放缩
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image004.gif)
+![img](AdvanceAgreProblem.assets/clip_image004.gif)
+
+
 
 下面的大于号同样表示矩阵正定的大于关系
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image006.gif)
+![img](AdvanceAgreProblem.assets/clip_image006.gif)
 
 运用到的性质总结：
 
@@ -33,15 +35,15 @@
 
 求证：
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image008.gif)
+![img](AdvanceAgreProblem.assets/clip_image008.gif)
 
 证明：一方面， 不等号成立，且相似变换不改变特征值
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image010.gif)
+![img](AdvanceAgreProblem.assets/clip_image010.gif)
 
 另一方面， 取等在极限情况可取到， 只需取一个由特殊的小量构成的对角阵
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image012.gif)
+![img](AdvanceAgreProblem.assets/clip_image012.gif)
 
 运用到的性质总结：
 
@@ -57,15 +59,15 @@
 
 证法1： 根据 Perron 定理， 利用左右特征向量，取出对应矩阵的特征值
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image014.gif)
+![img](AdvanceAgreProblem.assets/clip_image014.gif)
 
 证法2： 利用 Weyl 不等式， 拆分矩阵为对角元和非对角元
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image016.gif)
+![img](AdvanceAgreProblem.assets/clip_image016.gif)
 
 矩阵 C为正矩阵， D为其对角元素 E为其非对角元素
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image018.gif)
+![img](AdvanceAgreProblem.assets/clip_image018.gif)
 
 运用到的性质总结：
 
@@ -78,23 +80,23 @@
 
 已知矩阵A，特征值：
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image020.gif)
+![img](AdvanceAgreProblem.assets/clip_image020.gif)
 
 求证：
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image022.gif)
+![img](AdvanceAgreProblem.assets/clip_image022.gif)
 
 证明： 利用 Hoffman 不等式
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image024.gif)
+![img](AdvanceAgreProblem.assets/clip_image024.gif)
 
 再证等号可以取到，取最小特征值所对应的特征向量
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image026.gif)
+![img](AdvanceAgreProblem.assets/clip_image026.gif)
 
 该秩1扰动只改变最小特征值，根据 Schur分解
 
-![img](C:/Users/HONOR/Desktop/AdvanceAgreProblem.assets/clip_image028.gif)
+![img](AdvanceAgreProblem.assets/clip_image028.gif)
 
 故等号可取到，证毕
 
