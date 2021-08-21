@@ -1,3 +1,5 @@
+# GRE熟词僻义
+
 wrest 抢夺，挣脱
 
 accommodate 使适应
