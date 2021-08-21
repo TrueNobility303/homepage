@@ -415,7 +415,7 @@ senescence/decrepitude 衰老
 
 tyro/novice 新手
 
-## 其他单个较难记住的单词
+## 其他
 
 stupefaction 呆滞，迷糊
 
